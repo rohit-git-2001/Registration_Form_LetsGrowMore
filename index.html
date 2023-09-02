@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/application.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="write">
+        <h1>Registration Form</h1>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your Name" />
+          </div>
+
+          <div>
+            <label for="email">E mail</label>
+            <input id="email" type="email" placeholder="Eamil Address" />
+          </div>
+
+          <div>
+            <label for="webSite">Web Site</label>
+            <input id="webSite" type="text" placeholder="Web Site" />
+          </div>
+
+          <div>
+            <label for="imageLink">Image Link</label>
+            <input id="imageLink" type="text" placeholder="Image Link" />
+          </div>
+
+          <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
+          </div>
+
+          <div>
+            <label for="skill">Skills</label>
+
+            <input name="skill" type="checkbox" value="HTML" id="html" />
+            <label for="html">HTML</label>
+
+            <input name="skill" type="checkbox" value="CSS" id="css"/>
+            <label for="css">CSS</label>
+
+            <input name="skill" type="checkbox" value="JavaScript" id="js" />
+            <label for="js">JavaScript</label>
+
+            <input name="skill" type="checkbox" value="ReactJS" id="react" />
+            <label for="react">ReactJS</label>
+          </div>
+
+          <div class="btn">
+            <button id="submit">Submit</button>
+            <button id="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+      <div id="show">
+        <div id="card">
+          <img src="./img/pngwing.com.png" alt="user" />
+          <div>
+            <h1 >Name :</h1>
+            <h1 class="h1" id="showName">...</h1>
+          </div>
+
+          <div>
+            <h1>E Mail :</h1>
+            <h1 class="h1" id="showEmail">...</h1>
+          </div>
+
+          <div>
+            <h1>Web site :</h1>
+            <h1 class="h1" id="showWebsite">...</h1>
+          </div>
+
+          <div>
+            <h1>Image Link :</h1>
+            <h1 class="h1" id="showImageLink">...</h1>
+          </div>
+
+          <div>
+            <h1>Gender :</h1>
+            <h1 class="h1" id="showGender">...</h1>
+          </div>
+
+          <div>
+            <h1>Skills :</h1>
+            <h1 class="h1" id="showSkill">...</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

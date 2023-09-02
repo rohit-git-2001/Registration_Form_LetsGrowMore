@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(148, 196, 238);
+  display: flex;
+}
+
+#write,
+#show {
+  flex: 50%;
+}
+
+#write {
+  background-color: slateblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#write h1 {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 161, 26);
+  border-radius: 10px;
+  width: 500px;
+}
+
+form div {
+  width: 500px;
+  /* border: 1px solid white; */
+  padding: 10px 18px;
+}
+
+form div label {
+  display: inline-block;
+  width: 137px;
+  height: 30px;
+  cursor: pointer;
+}
+
+form div input {
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn button {
+  border: none;
+  font-size: 20px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  background-color: slateblue;
+  color: rgb(218, 220, 222);
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn button:hover {
+  background-color: darkslateblue;
+  color: white;
+}
+
+#show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  padding: 10px 18px;
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  border-radius: 10px;
+  height: 300px;
+  position: relative;
+  padding: 20px;
+}
+
+#card div h1 {
+  display: inline-block;
+  font-size: 1.7rem;
+}
+
+.h1 {
+  color: crimson;
+}
+
+#card img {
+  position: absolute;
+  width: 270px;
+  top: 10px;
+  right: 10px;
+  border-radius: 10px;
+}
